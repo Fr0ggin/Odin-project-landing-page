@@ -34,7 +34,9 @@
 }
 
 .call_to_action_color{
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
 }
 
 .information_header_text{
