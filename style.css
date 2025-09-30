@@ -6,6 +6,7 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+    text-decoration: none;
 }
 /* .roboto{
   font-family: "Roboto", sans-serif;
@@ -54,6 +55,14 @@
     font-weight: 300;
 }
 
+/* End of generic styles */
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .header{
     display:flex;
     justify-content: flex-start;
@@ -69,7 +78,18 @@
 }
 .header-links a{
     color: white;
-    text-decoration: none;
-    font
+    padding: 4px;
+    margin: 4px;
 }
 
+.first-layer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+}
+.first-layer img{
+    width: 250px;
+    height: auto;
+}
