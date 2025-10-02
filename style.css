@@ -1,12 +1,12 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
     list-style: none;
     margin: 0;
       font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    text-decoration: none;
 }
 /* .roboto{
   font-family: "Roboto", sans-serif;
@@ -28,6 +28,7 @@
 .hero_secondary{
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 350;
 }
 .hero_logo_text{
     font-size: 24px;
@@ -102,6 +103,31 @@
 }
 
 .first-layer img{
-    width: 250px;
+    width: 500px;
     height: auto;
+}
+
+.second-layer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.second-layer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.second-layer img{
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    flex: 0 0 10px;
+}
+.second-layer figcaption{
+    font-size: 18px;
 }
