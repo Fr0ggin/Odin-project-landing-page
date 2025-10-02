@@ -51,8 +51,9 @@
 }
 
 .quote_background{
-    color: #E5E7EB;
+    background-color: #E5E7EB;
 }
+
 .quote_text{
     font-size: 36px;
     color: #1F2937;
@@ -110,9 +111,10 @@
 .second-layer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: ;
     align-items: center;
     margin-top: 40px;
+    background-color: #ffffff;
 }
 
 .second-layer .container{
