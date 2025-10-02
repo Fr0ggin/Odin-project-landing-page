@@ -6,8 +6,8 @@
       font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
-    font-style: normal;
 }
+
 /* .roboto{
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -58,6 +58,7 @@
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+
 }
 
 /* End of generic styles */
@@ -111,7 +112,7 @@
 .second-layer{
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     margin-top: 40px;
     background-color: #ffffff;
@@ -132,4 +133,9 @@
 }
 .second-layer figcaption{
     font-size: 18px;
+}
+
+.quote_text{
+    text-align: center;
+    margin: 100px;
 }
