@@ -74,17 +74,24 @@
     align-items: center;
 }
 .header img{
-    width: 50px;
+    width: 100px;
     height: auto;
     flex: 0 0 10px;
+    margin-left: 250px;
+    margin-top: 10px;
 }
 .pushblock{
     flex: 1;
+}
+
+.header-links{
+    margin-right: 200px
 }
 .header-links a{
     color: white;
     padding: 4px;
     margin: 4px;
+    font-weight: 00;
 }
 
 .first-layer{
@@ -100,12 +107,16 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
+    margin-left:200px;
+    margin-right:10px;
+    flex: 1;
     
 }
 
 .first-layer img{
-    width: 500px;
+    width: 400px;
     height: auto;
+    margin-right: 150px;
 }
 
 .second-layer{
@@ -113,7 +124,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+        margin: 40px 200px;
     background-color: #ffffff;
 }
 
@@ -122,13 +133,13 @@
     justify-content: center;
     align-items: center;
     margin: 40px;
+    gap: 40px;
 }
 
 .second-layer img{
     border-radius: 5px;
     width: 200px;
     height: auto;
-    flex: 0 0 10px;
 }
 .second-layer figcaption{
     font-size: 18px;
@@ -139,12 +150,37 @@
     justify-content: center;
     flex-direction: column;
     margin: 100px 200px;
-
 }
 .quote_name{
     align-self: flex-end;
     font-size: 36px;
     color: #1F2937;
     font-weight: 500;
+}
 
+.fourth-layer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 50px 200px;
+}
+
+.fourth-layer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px;
+}
+.fourth-layer button {
+    border: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    margin: 20px;
+    font-weight: 400;
 }
